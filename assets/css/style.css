@@ -1,40 +1,12 @@
-*{
-    width: 0;
-    height: 0;
-}
-
 html{
-    background: #04032B;
+        background: #04032B;
 }
 
-.menininha-animação {
-    width: 50vw;
-    height: 100vh;
-    display: flex; 
-    align-items: center;
-    flex-direction: column;
+.main{
+    color: antiquewhite;
+    text-align: center;
 }
 
-.menininha-animação > h1 {
-    font-size: 3vw;
-    color: #ffffff;    
-}
-
-.main-dois-image {
-    width: 35vw;
-}
-
-img{
-  
-}
-
-@media only screen and (max-width: 600px){
-
-    .main-dois > h1{
-        display: none;
-    }
-    .menininha-animação-image {
-            width: 35vw;
-        }
-
+.menininha-animação-image {
+    width: 25vw;
 }
