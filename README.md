@@ -1,2 +1,5 @@
 # Projeto-Siles
-Criar uma página em grupo com branch
+
+
+Subindo a branch para fazer edição depois!!
+mais umas ideias que tinha feito antes de começar os textos.
