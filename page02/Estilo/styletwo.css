@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, white 16.62%, gray 85.61%);
+}
+
+.header {
+  align-items: center;
+  padding: 24px;
+}
+
+.div1 {
+  float: right;
+  padding-top: 55px;
+  padding-right: 30px;
+}
+
+.header-img {
+  width: 170px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 70px;
+}
+
+.header-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 20px
+}
+
+.content {
+  margin-bottom: 48px;
+  border-top: 0.2px solid gray;
+}
+
+.content-main {
+  margin-top: 30px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-main-write {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 60px;
+}
+
+.content-main-write-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 65px;
+  color: black;
+  text-align: center;
+}
+
+.content-main-write-subtitle {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+}
+
+.content-img1 {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-img2 {
+  width: 600px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-img3 {
+  width: 500px;
+  display: block;  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+    padding: 32px;
+    border-top: 0.2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-weight: 350;
+  font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  font-family: 'Sarala', cursive;
+  font-weight: 350;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.p1 {
+  font-size: 15px;
+}
+
+.footer-img {
+  margin: 0 auto;
+}
