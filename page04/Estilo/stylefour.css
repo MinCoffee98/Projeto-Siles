@@ -1,127 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+body {
+  background-image: linear-gradient(100.70deg, rgb(222, 201, 201) 16.62%, #98819e 85.61%);
+}
 
-* {
+
+
+@font-face {
+  font-family: Lemon;
+  src: url("LEMONMILK-Bold.otf") format('opentype');
+}
+
+#header {
+  display: flex;
+  border-bottom: 0.5px solid rgb(222, 201, 201);
+  align-items: center;
+  height: 50px;
+  padding: 1rem;
+  justify-content: space-between;
+  font-size: 1vw;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+
+}
+
+ul{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+a {
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  font-family: Lemon;
+  src: url("LEMONMILK-Bold.otf") format('opentype');
 }
 
-body {
-  font-size: 100%;
-  background: linear-gradient(68.15deg, white 16.62%, gray 85.61%);
+.logoheader {
+
+  max-width: 8%;
 }
 
-.header {
+.imgLOL {
+
+  max-width: 30%;
+  padding-top: 5%;
+  position: absolute;
+  top: auto;
+  left: 70%;
+}
+
+.imgLOL2 { 
+  max-width: 30%;
+  padding-top: 50%;
+  position: absolute;
+  top: auto;
+  left: 0%; 
+  justify-items: baseline;
+}
+
+
+
+.titulo1 {
+  position: absolute;
+  top: auto;
+  left: 11%;
+  font-family: Lemon;
+  font-size: 2vw;
+  height: 20px;
+  padding-top: 2%;
+  color: rgb(73, 102, 100);
+
+}
+
+.titulo2{
+  position: absolute;
+  top: auto;
+  left: 80%;
+  font-family: Lemon;
+  font-size: 2vw;
+  width: 80%;
+  height: 20px;
+  padding-top: 50%;
+  color: rgb(73, 102, 100);
+
+}
+
+.divTexto{ 
+
+  width: 800px;
+  height: 100px;
+  position: absolute;
+  top: 34%;
+  left: 11%;
+  display:block;
   align-items: center;
-  padding: 24px;
+  text-align: initial;
+  margin-left: 4px;
+  font-size: 5vw;
+
 }
 
-.div1 {
-  float: right;
-  padding-top: 55px;
-  padding-right: 30px;
-}
 
-.header-img {
-  width: 170px;
-  padding-top: 5px;
-  padding-left: 30px;
-}
+p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: auto;
+  font-size:1.5vw;
+  padding-top: 2%;
 
-.header-menu {
-  display: flex;
-  gap: 70px;
-}
+} 
 
-.header-menu-item {
-  font-family: 'Sarala', sans-serif;
-  color: white;
-  font-weight: 400;
-  font-size: 20px
-}
-
-.content {
-  margin-bottom: 48px;
-  border-top: 0.2px solid gray;
-}
-
-.content-main {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.content-main-write {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  padding-left: 60px;
-}
-
-.content-main-write-title {
-  font-family: 'Righteous', cursive;
-  font-weight: 400;
-  font-size: 64px;
-  color: black;
-}
-
-.content-main-write-subtitle {
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: black;
-}
-
-.content-main-write-button {
-  background-color: gray;
-  width: 170px;
-  height: 60px;
-  border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: black;
-}
-
-.content-main-write-button:hover {
-  background-color: darkgray;
-}
-
-.div2 {
-  margin-top: 60px;
-}
-
-.content-img {
-  height: 430px;
-}
-
-.content-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  margin-top: 10px;
-}
-
-.content-side-title {
-  border-top: 0.2px solid white;
-  padding-top: 48px;
-  font-family: 'Righteous', cursive;
-  font-weight: 400;
-  font-size: 24px;
-  color:white;
-  margin-bottom: 16px;
-}
-
-.content-side-item {
-  font-family: 'Sarala', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: white;
+.mulheres{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  padding-top: 70%;
+  left: 85%;
+  height: 10px;
+  width:80% ;
+  font-size:1.5vw;
 }
 
 .footer {

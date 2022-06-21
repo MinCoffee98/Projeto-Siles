@@ -1,43 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-* {
+body {
+  background-image: linear-gradient(100.70deg, rgb(222, 201, 201) 16.62%, #98819e 85.61%);
+}
+
+@font-face {
+  font-family: Lemon;
+  src: url("LEMONMILK-Bold.otf") format('opentype');
+}
+
+#header {
+  display: flex;
+  border-bottom: 0.5px solid rgb(222, 201, 201);
+  align-items: center;
+  height: 50px;
+  padding: 1.7rem;
+  justify-content: space-between;
+  font-size: 1.4vw;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+}
+
+ul {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+a {
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  font-family: Lemon;
+  src: url("LEMONMILK-Bold.otf") format('opentype');
 }
 
-body {
-  font-size: 100%;
-  background: linear-gradient(68.15deg, white 16.62%, gray 85.61%);
-}
-
-.header {
-  padding: 24px;
-}
-
-.div1 {
-  float: right;
-  padding-top: 55px;
-  padding-right: 30px;
-}
-
-.header-img {
-  width: 170px;
-  padding-top: 5px;
-  padding-left: 30px;
-}
-
-.header-menu {
-  display: flex;
-  gap: 70px;
-}
-
-.header-menu-item {
-  font-family: 'Sarala', sans-serif;
-  color: white;
-  font-weight: 400;
-  font-size: 20px
+.logoheader {
+  max-width: 10%;
 }
 
 .content {
@@ -62,33 +63,33 @@ body {
 .content-main-write-title {
   font-family: 'Righteous', cursive;
   font-weight: 400;
-  font-size: 64px;
+  font-size: 35px;
   color: black;
 }
 
 .content-main-write-subtitle {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   color: black;
 }
 
 .content-main-write-button {
-  background-color: gray;
-  width: 170px;
-  height: 60px;
+  background-color: pink;
+  width: 160px;
+  height: 50px;
   border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 5px 4px rgb(231, 172, 182);
   border-radius: 20px;
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   color: black;
 }
 
 .content-main-write-button:hover {
   cursor: pointer;
-  background-color: darkgray;
+  background-color: rgb(233, 167, 178);
 }
 
 .div2 {
