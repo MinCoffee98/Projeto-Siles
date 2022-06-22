@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 body {
   background-image: linear-gradient(100.70deg, rgb(222, 201, 201) 16.62%, #98819e 85.61%);
 }
-
-
 
 @font-face {
   font-family: Lemon;
@@ -14,9 +14,9 @@ body {
   border-bottom: 0.5px solid rgb(222, 201, 201);
   align-items: center;
   height: 50px;
-  padding: 1rem;
+  padding: 1.7rem;
   justify-content: space-between;
-  font-size: 1vw;
+  font-size: 1.4vw;
 }
 
 #menu {
@@ -26,11 +26,12 @@ body {
 
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
-a {
+
+.menu {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Lemon;
@@ -38,99 +39,92 @@ a {
 }
 
 .logoheader {
-
-  max-width: 8%;
+  width: 100px;
 }
 
-.imgLOL {
-
-  max-width: 30%;
-  padding-top: 5%;
-  position: absolute;
-  top: auto;
-  left: 70%;
+.content {
+  margin-bottom: 48px;
+  border-top: 0.2px solid gray;
 }
 
-.imgLOL2 { 
-  max-width: 30%;
-  padding-top: 50%;
-  position: absolute;
-  top: auto;
-  left: 0%; 
-  justify-items: baseline;
-}
-
-
-
-.titulo1 {
-  position: absolute;
-  top: auto;
-  left: 11%;
-  font-family: Lemon;
-  font-size: 2vw;
-  height: 20px;
-  padding-top: 2%;
-  color: rgb(73, 102, 100);
-
-}
-
-.titulo2{
-  position: absolute;
-  top: auto;
-  left: 80%;
-  font-family: Lemon;
-  font-size: 2vw;
-  width: 80%;
-  height: 20px;
-  padding-top: 50%;
-  color: rgb(73, 102, 100);
-
-}
-
-.divTexto{ 
-
-  width: 800px;
-  height: 100px;
-  position: absolute;
-  top: 34%;
-  left: 11%;
-  display:block;
+.content-main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: initial;
-  margin-left: 4px;
-  font-size: 5vw;
-
 }
 
+.content-main-write {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 60px;
+}
 
-p{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  top: auto;
-  font-size:1.5vw;
-  padding-top: 2%;
+.content-main-write-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
 
-} 
+.content-main-write-subtitle {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
 
-.mulheres{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  padding-top: 70%;
-  left: 85%;
-  height: 10px;
-  width:80% ;
-  font-size:1.5vw;
+.div2 {
+  margin-top: 60px;
+}
+
+.content-img {
+  width: auto;
+}
+
+.content-main2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.content-main-write2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 60px;
+}
+
+.content-main-write-title2 {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
+
+.mulheres {  
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+
+.div3 {
+  margin-top: 60px;
+}
+
+.content-img2 {
+  width: auto;
 }
 
 .footer {
-    padding: 32px;
-    border-top: 0.2px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    ;
+  padding: 32px;
+  border-top: 0.2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {

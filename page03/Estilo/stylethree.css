@@ -38,7 +38,7 @@ a {
 }
 
 .logoheader {
-  max-width: 10%;
+  max-width: 100px;
 }
 
 .content {
@@ -127,12 +127,11 @@ a {
 }
 
 .footer {
-    padding: 32px;
-    border-top: 0.2px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    ;
+  padding: 32px;
+  border-top: 0.2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {
