@@ -38,7 +38,7 @@ a {
 }
 
 .logoheader {
-  max-width: 100px;
+  max-width: 120px;
 }
 
 .content {
@@ -77,6 +77,20 @@ a {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+
+.content-p {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
 .content-img1 {
   width: 600px;
   display: block;
@@ -103,36 +117,29 @@ a {
 }
 
 .footer {
-    padding: 32px;
-    border-top: 0.2px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    ;
-}
-
-h2 {
-  font-family: 'Righteous', cursive;
-  font-weight: 350;
-  font-size: 23px;
+  padding: 32px;
+  border-top: 0.2px solid black;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  ;
 }
 
 p {
-  font-family: 'Sarala', cursive;
-  font-weight: 350;
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+font-family: 'Righteous', cursive;
+font-weight: 400;
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .p1 {
-  font-size: 15px;
+font-size: 15px;
 }
 
 .footer-img {
-  margin: 0 auto;
+margin: 0 auto;
 }

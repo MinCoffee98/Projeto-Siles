@@ -38,7 +38,7 @@ a {
 }
 
 .logoheader {
-  max-width: 100px;
+  max-width: 120px;
 }
 
 .content {
@@ -139,6 +139,7 @@ p {
   font-weight: 400;
   font-size: 20px;
   margin-top: 10px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;

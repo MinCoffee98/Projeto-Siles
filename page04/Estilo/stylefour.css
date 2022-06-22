@@ -39,7 +39,7 @@ ul {
 }
 
 .logoheader {
-  width: 100px;
+  width: 120px;
 }
 
 .content {
@@ -75,19 +75,36 @@ ul {
   color: black;
 }
 
-.div2 {
-  margin-top: 60px;
+.content-link {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
 }
 
-.content-img {
-  width: auto;
+.content-link2 {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.div2 {
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.imagem1 {
+  width: 500px;
 }
 
 .content-main2 {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
 }
 
 .content-main-write2 {
@@ -95,6 +112,8 @@ ul {
   flex-direction: column;
   gap: 32px;
   padding-left: 60px;
+  align-items: center;
+  margin-right: 60px;
 }
 
 .content-main-write-title2 {
@@ -102,6 +121,7 @@ ul {
   font-weight: 400;
   font-size: 35px;
   color: black;
+  justify-content: center;
 }
 
 .mulheres {  
@@ -115,8 +135,9 @@ ul {
   margin-top: 60px;
 }
 
-.content-img2 {
-  width: auto;
+.imagem2 {
+  width: 280px;
+  margin-left: 50px;
 }
 
 .footer {
@@ -132,6 +153,7 @@ p {
   font-weight: 400;
   font-size: 20px;
   margin-top: 10px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
