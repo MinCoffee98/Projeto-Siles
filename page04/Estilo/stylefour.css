@@ -140,6 +140,43 @@ ul {
   margin-left: 50px;
 }
 
+.content-main3 {
+  margin-top: 70px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-main-write3 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 60px;
+}
+
+.content-main-write-subtitle3 {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+
+.content-p {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
 .footer {
   padding: 32px;
   border-top: 0.2px solid black;
