@@ -64,7 +64,7 @@ a {
 .content-main-write-title {
   font-family: 'Righteous', cursive;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 45px;
   color: black;
   text-align: center;
 }
@@ -72,15 +72,7 @@ a {
 .content-main-write-subtitle {
   font-family: 'Righteous', cursive;
   font-weight: 400;
-  font-size: 32px;
-  color: black;
-  text-align: center;
-}
-
-h2 {
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   color: black;
   text-align: center;
 }
@@ -155,22 +147,12 @@ h2 {
   margin-right: auto;
 }
 
-.content-img8 {
-  width: 200px;
-  display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .footer {
   padding: 32px;
   border-top: 0.2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  ;
 }
 
 p {
